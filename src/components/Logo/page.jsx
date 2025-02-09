@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import React from 'react'
-import logoIcon from '../../../../public/logo.png'
+import logoIcon from '../../../public/logo.png'
 import Image from 'next/image'
 
 const Logo = () => {

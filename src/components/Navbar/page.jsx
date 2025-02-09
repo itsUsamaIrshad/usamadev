@@ -1,13 +1,13 @@
 'use client'
 
 import Link from 'next/link'
-import React, { useEffect, useState } from 'react'
-import Logo from '../logo/page'
+import React, {  useState } from 'react'
+import Logo from '../Logo/page'
 import { usePathname } from 'next/navigation'
-import  { DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, TwitterIcon , } from '../icon/page'
+import  {  GithubIcon, LinkedInIcon, } from '../Icon/page'
 import { motion } from 'framer-motion'
-import DarkModeToggle from '../useThemeSwitcher/page'
-import HireMe from '../hireMe/page'
+import DarkModeToggle from '../UseThemeSwitcher/page'
+import HireMe from '../HireMe/page'
 
 
 

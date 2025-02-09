@@ -2,8 +2,8 @@
 
 import React, { useRef } from 'react'
 import {motion, useScroll } from 'framer-motion'
-import LiIcon from '../liIcon/page'
-const Education = () => {
+import LiIcon from '../LiIcon/page'
+const Experience = () => {
 
   const ref = useRef()
   const { scrollYProgress } = useScroll({
@@ -61,4 +61,4 @@ const Education = () => {
   )
 }
 
-export default Education
+export default Experience

@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Layout from '../layout/page'
+
 const Skill = () => {
 
 

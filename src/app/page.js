@@ -1,12 +1,13 @@
 'use client'
 import Image from 'next/image';
-import Layout from './components/layout/page'
 import profileImage from '../../public/images/profile/developer-pic-2.png'
 import Link from 'next/link';
-import { LinkArrow } from './components/icon/page';
-import HireMe from './components/hireMe/page';
-import AnimatedText from './components/AnimatedText';
-import TransitionEffect from './components/transitionEffect/page';
+import TransitionEffect from '@/components/TransitionEffect/page';
+import AnimatedText from '@/components/AnimatedText';
+import HireMe from '@/components/HireMe/page';
+import { LinkArrow } from '@/components/Icon/page';
+import Layout from '@/components/Layout/page';
+
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
 <Layout className={'pt-0 md:p-16  '}>
   <div className=' flex items-center justify-between w-full gap-[100px] flex-col md:flex-row'>
 
-    <div className=' w-full flex flex-col items-center self-center xl:w-1/2 text-center md:text-left'>
+    <div className=' w-full flex flex-col items-center self-center  text-center md:text-left'>
       
        <AnimatedText text={'Turning Vision Into Reality With Code And Design.'} classname=' p-3'/> 
      
@@ -32,12 +33,12 @@ export default function Home() {
         <Link href={'mailto:usama@gmail.com'} target='blank' className='text-lg font-medium capitalize text-dark underline dark:text-light  '>Contact</Link>
       </div>
     </div>
-    <div className='w-full '>
+    <div className='w-full md:hidden block '>
 
 <Image 
 src={profileImage} 
 alt='image' 
-className='block md:hidden lg:block w-full h-auto' 
+className=' w-full h-auto' 
 priority  
 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" 
 />

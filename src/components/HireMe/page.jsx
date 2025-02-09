@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Link from 'next/link'
-import { CircularText } from '../icon/page'
+import { CircularText } from '../Icon/page'
 
 const HireMe = () => {
   return (
