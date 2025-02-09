@@ -1,12 +1,12 @@
 'use client'
 import Image from 'next/image';
-import Layout from './components/Layout/page'
+import Layout from './components/layout/page'
 import profileImage from '../../public/images/profile/developer-pic-2.png'
 import Link from 'next/link';
-import { LinkArrow } from './components/Icon/page';
-import HireMe from './components/HireMe/page';
+import { LinkArrow } from './components/icon/page';
+import HireMe from './components/hireMe/page';
 import AnimatedText from './components/AnimatedText';
-import TransitionEffect from './components/TransitionEffect/page';
+import TransitionEffect from './components/transitionEffect/page';
 
 
 export default function Home() {

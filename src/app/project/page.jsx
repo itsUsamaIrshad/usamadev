@@ -1,14 +1,14 @@
 'use client'
 import Head from 'next/head'
 import React from 'react'
-import Layout from '../components/Layout/page'
+import Layout from '../components/layout/page'
 import AnimatedText from '../components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
-import { GithubIcon } from '../components/Icon/page'
+import { GithubIcon } from '../components/icon/page'
 import Profile_pic from '../../../public/images/projects/agency-website-cover-image.jpg'
 import { motion } from 'framer-motion'
-import TransitionEffect from '../components/TransitionEffect/page'
+import TransitionEffect from '../components/transitionEffect/page'
 
 
 

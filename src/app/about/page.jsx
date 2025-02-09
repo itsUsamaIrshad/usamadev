@@ -2,15 +2,15 @@
 
 import Head from 'next/head'
 import React, { useEffect, useRef } from 'react'
-import Layout from '../components/Layout/page'
+import Layout from '../components/layout/page'
 import AnimatedText from '../components/AnimatedText'
 import Profile_pic from '../../../public/images/profile/developer-pic-2.png'
 import Image from 'next/image'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
-import Skill from '../components/Skill/page'
-import Experience from '../components/Experience/page'
-import Education from '../components/Education/page'
-import TransitionEffect from '../components/TransitionEffect/page'
+import Skill from '../components/skill/page'
+import Experience from '../components/experience/page'
+import Education from '../components/education/page'
+import TransitionEffect from '../components/transitionEffect/page'
 
 const About = () => {
 

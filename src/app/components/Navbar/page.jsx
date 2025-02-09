@@ -2,12 +2,12 @@
 
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import Logo from '../Logo/page'
+import Logo from '../logo/page'
 import { usePathname } from 'next/navigation'
-import  { DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, TwitterIcon , } from '../Icon/page'
+import  { DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, TwitterIcon , } from '../icon/page'
 import { motion } from 'framer-motion'
 import DarkModeToggle from '../useThemeSwitcher/page'
-import HireMe from '../HireMe/page'
+import HireMe from '../hireMe/page'
 
 
 

@@ -1,4 +1,5 @@
-import React, { useRef } from 'react'
+'use client'
+import React from 'react'
 import { motion, useScroll } from 'framer-motion'
 
 const LiIcon = ({ reference }) => {

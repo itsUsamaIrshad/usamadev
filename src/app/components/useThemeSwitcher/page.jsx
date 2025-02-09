@@ -68,8 +68,10 @@
 
 // export default useThemeSwitcher
 
+'use client'
+
 import { useState, useEffect } from "react";
-import { MoonIcon, SunIcon } from "../Icon/page";
+import { MoonIcon, SunIcon } from "../icon/page";
 
 export default function DarkModeToggle() {
   const [darkMode, setDarkMode] = useState(
