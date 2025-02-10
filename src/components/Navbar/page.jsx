@@ -7,14 +7,13 @@ import { usePathname } from 'next/navigation'
 import  {  GithubIcon, LinkedInIcon, } from '../Icon/page'
 import { motion } from 'framer-motion'
 import DarkModeToggle from '../UseThemeSwitcher/page'
-import HireMe from '../HireMe/page'
+
 
 
 
 const Navbar = () => {
   
-  
-  
+
   const CustomLinks = ({href ,title , className=''})=>
     {
       
@@ -23,7 +22,7 @@ const Navbar = () => {
             <>
             <Link href={href} className={`${className} relative group`}>
             {title}
- <span className={`h-[2px] inline-block bg-dark dark:bg-light  absolute left-0
+ <span className={`h-[2px] inline-block bg-dark dark:bg-[#ff014f]  absolute left-0
    -bottom-0.5 group-hover:w-full group-active:w-full transition-[width] ease duration-300 ${pathname === href ? 'w-full':'w-0'} `}>&nbsp;</span>
             </Link>
            
@@ -65,7 +64,7 @@ const Navbar = () => {
 
 
   return (
-  <header className=' w-full px-8 sm:px-16 lg:px-32 py-10 font-medium flex  items-center justify-between dark:bg-dark dark:text-light   relative  '>
+  <header className=' w-full px-8 sm:px-16 lg:px-32 py-10 font-medium flex  items-center justify-between dark:bg-transparent   dark:text-light    absolute z-10  '>
 
 <button className='flex-col items-center justify-center flex md:hidden ' onClick={handleClick}>
 <span className={`bg-dark dark:bg-light block transition-all duration-300

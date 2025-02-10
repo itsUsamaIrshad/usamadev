@@ -32,9 +32,10 @@ import { motion } from 'framer-motion'
 
 
   return (
-    <div className="w-[100%] md:w-[80%] mx-auto py-2 sm:py-0 flex items-center justify-center text-center overflow-hidden">
+    <div className="w-[100%] mx-auto  py-0 flex   justify-center lg:justify-start overflow-hidden">
    
-<motion.h1 className={` text-dark font-bold capitalize text-center  dark:text-light     text-4xl leading-[60px] lg:text-6xl xl:text-7xl' ${classname}`} variants={quote} initial='initial' animate='animate'>
+<motion.h1 className={` text-dark  dark:text-light font-bold text-2xl  sm:text-3xl
+     md:leading-[60px]  md:text-5xl xl:text-6xl ' ${classname}`} variants={quote} initial='initial' animate='animate'>
 {
     text.split(' ').map((word , index)=>
     (

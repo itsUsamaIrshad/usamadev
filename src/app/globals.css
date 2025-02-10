@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bgImg
+{
+background-image: url('../../public/images/black-banner.jpg');
+}
