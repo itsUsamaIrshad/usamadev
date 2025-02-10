@@ -59,7 +59,7 @@ export default function Home() {
 <Image 
 src={profileImage} 
 alt='image' 
-className=' md:w-[60%]  lg:w-[50%] h-auto overflow-hidden  absolute bottom-0' 
+className=' md:w-[60%]  lg:w-[40%] h-auto overflow-hidden  absolute bottom-0' 
 priority  
 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" 
 />
