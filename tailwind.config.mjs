@@ -24,7 +24,8 @@ export default {
         blackBanner: "url('/images/black-banner.jpg')", // ✅ Correct path
       },
       screens:{
-        xs: "320px",  // ✅ Extra Small Screens (Mobile)
+        xxs:'320px',
+        xs: "440px",  // ✅ Extra Small Screens (Mobile)
         sm: "640px",  // ✅ Small Screens (Tablets)
         md: "768px",  // ✅ Medium Screens (Small Laptops)
         lg: "1024px", // ✅ Large Screens (Laptops)

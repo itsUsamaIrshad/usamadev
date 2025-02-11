@@ -10,7 +10,7 @@ const HireMe = () => {
   
     <div
         className="fixed right-4 top-0 flex items-center justify-center overflow-hidden 
-                   md:left-8 md:right-auto md:bottom-0 md:top-auto md:absolute"
+                   md:left-auto  md:bottom-0 md:top-auto md:absolute"
       >
         <div className='md:w-48 w-24 h-auto flex items-center justify-center relative'>
       <CircularText className={'fill-dark animate-spin-slow dark:fill-light    '}/>

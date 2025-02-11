@@ -5,8 +5,8 @@ const Footer = () => {
 
   return (
     <>
- <footer className=' w-full border-t-2 border-solid border-dark  dark:border-light'>
-    <Layout className={'py-4 flex flex-col gap-4 md:flex-row items-center justify-between '}>
+ <footer className= '  w-full border-t-2 border-solid border-dark  dark:border-light'>
+    <Layout className={'py-4  flex flex-col gap-4 md:flex-row items-center justify-between '}>
 
         <span className=' dark:text-light '>{new Date().getFullYear()} &copy; All Right Reserved</span>
 
