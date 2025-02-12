@@ -112,7 +112,7 @@ const Navbar = () => {
       <CustomMobileLinks title="Home" href="/" toggle={() => setOpen(false)} />
       <CustomMobileLinks title="About" href="/about" toggle={() => setOpen(false)} />
       <CustomMobileLinks title="Project" href="/project" toggle={() => setOpen(false)} />
-      <CustomMobileLinks title="Article" href="/article" toggle={() => setOpen(false)} />
+      <CustomMobileLinks title="Contact" href="/contact" toggle={() => setOpen(false)} />
     </nav>
 
     <nav className="flex items-center justify-center flex-wrap">
