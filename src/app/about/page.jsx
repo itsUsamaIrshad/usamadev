@@ -2,7 +2,7 @@
 
 import Head from 'next/head'
 import React, { useEffect, useRef } from 'react'
-import Profile_pic from '../../../public/images/profile/developer-pic-2.png'
+import Profile_pic from '../../../public/images/profile/usamaBg.jpg'
 import Image from 'next/image'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect/page'
@@ -56,17 +56,18 @@ useEffect(()=>
 
 <TransitionEffect/>
     <main className=' flex w-full flex-col items-center justify-start'>
-        <Layout className={'pt-16'}>
+        <Layout className={'pt-36  sm:px-10'}>
         <AnimatedText text={'Passion fuel Purpose'} classname={'mb-16'}/> 
-        <div className='grid w-full grid-cols-12 gap-8 sm:gap-12 md:gap-16 place-items-center'>
+        
+        <div className='grid w-full grid-cols-12 xs:gap-8 sm:gap-12 md:gap-16 place-items-center'>
   
   {/* Bio Section */}
-  <div className="col-span-12 sm:col-span-6 lg:col-span-5 xl:col-span-4 flex flex-col items-start justify-start">
+  <div className="col-span-12 sm:col-span-6 lg:col-span-5 xl:col-span-4 flex flex-col items-start justify-start ">
     <h2 className='mb-4 text-lg sm:text-xl md:text-2xl font-bold uppercase text-dark/75 dark:text-light'>
       BioGraphy
     </h2>
 
-    <p className='font-medium dark:text-light'>
+    <p className='  font-medium dark:text-light'>
       - Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
       and user-centered digital experiences. With 4 years of experience in the field, I am always looking for
       new and innovative ways to bring my clients' visions to life.
@@ -84,19 +85,19 @@ useEffect(()=>
   </div>
   
   {/* Profile Image Section */}
-  <div className='col-span-12 sm:col-span-6 lg:col-span-5 xl:col-span-4 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light'>
-    <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'/>
+  <div className='col-span-12 sm:col-span-6 lg:col-span-5 xl:col-span-4 relative h-[auto] rounded-2xl border-2 border-solid border-dark bg-light p-4 sm:p-8 dark:bg-dark dark:border-light  w-[60%] sm:w-[90%] lg:w-[70%]'>
+    <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light '/>
     <Image
       src={Profile_pic}
       alt='profile'
-      className='w-full h-auto rounded-2xl'
+      className='w-full h-auto rounded-2xl  '
       priority
-      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
     />
   </div>
 
   {/* Stats Section */}
-  <div className='bg-red-500 col-span-12  sm:col-span-6 lg:col-span-2 xl:col-span-4 flex flex-col sm:flex-row lg:flex-col w-full items-center justify-center gap-6 p-6 rounded-lg'>
+  <div className=' col-span-12   sm:col-span-6 lg:col-span-2 xl:col-span-4 flex  flex-row lg:flex-col  w-full items-center justify-center gap-6 p-6 rounded-lg'>
     {/* Stat Box 1 */}
     <div className='flex flex-col items-center justify-center text-center'>
       <span className='inline-block font-bold dark:text-light text-2xl sm:text-3xl md:text-4xl'>

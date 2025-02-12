@@ -50,7 +50,7 @@ export default function Home() {
  bg-dark p-2 sm:p-2.5 px-6 text-white rounded-lg text-md sm:text-lg font-semibold     dark:bg-light dark:text-dark   border-2 border-solid border-transparent ' download={true}>Resume <LinkArrow className='w-6 ml-1' /></Link>
 
         <Link href={'mailto:usama@gmail.com'} target='blank' 
-    className=' flex items-center bg-dark p-2 sm:p-2.5 px-6 text-white rounded-lg text-md
+    className=' flex items-center bg-dark p-3 sm:p-4.5 px-6 text-white rounded-lg text-md
   sm:text-lg font-semibold   dark:bg-[#ff014f]  dark:text-white  border-2 border-solid border-transparent '>Contact</Link>
       </div>
     </div>

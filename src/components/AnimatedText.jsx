@@ -34,7 +34,7 @@ import { motion } from 'framer-motion'
   return (
     <div className="w-[100%] mx-auto  py-0 flex   justify-center lg:justify-start overflow-hidden">
    
-<motion.h1 className={` text-dark  dark:text-light font-bold text-4xl
+<motion.h1 className={` text-dark text-center md:text-start  dark:text-light font-bold text-4xl
      md:leading-[60px]  sm:text-5xl xl:text-6xl ' ${classname}`} variants={quote} initial='initial' animate='animate'>
 {
     text.split(' ').map((word , index)=>
