@@ -31,21 +31,22 @@ const Education = () => {
     <>
     
     <div className=' my-32 sm:ml-14 '>
-      <h2 className=' font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-32 w-full text-center dark:text-light'>Education</h2>
+      <h2 className=' font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-32 w-full text-center dark:text-light'>Experience</h2>
     </div>
     
     <div ref={ref} className='   w-[100%] md:w-[75%]  mx-auto relative '>
       <motion.div style={{scaleY:scrollYProgress}} className=' absolute left-9 lg:left-[4.5rem] top-0     w-[4px] h-full bg-dark origin-top dark:bg-primaryDark '/>
 
       <ul className=' w-full flex flex-col  xs:ml-4 ml-8    dark:text-light  '>
-        <Details  type={'Bachelor Of Science In Computer Science'} time={'2016-2020'} place={'Massachusetts Institute Of Technology (MIT)'} info={'Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence.'} />
+       
+      <Details  type={'Techxtents'} time={'2024'} place={'TechXtent Software House Kohinoor Faisalabad'} info={"Let me share my experience with you regarding the web development course I undertook at TechXtent Software House. This course was a transformative journey that enhanced my skills and knowledge in the realm of web development.Through the guidance of experienced instructors, I delved into various aspects of web development, including frontend and backend technologies, responsive design principles, and interactive user experiences. The course provided me with practical insights into the latest industry trends, best practices, and tools used in the field I honed my abilities in HTML, CSS, JavaScript,and explored frameworks like React js for frontend development. On the backend, I gained proficiency in server-side scripting languages like Node.js and databases like Mongo DB."} />
         
-        <Details  type={'Bachelor Of Science In Computer Science'} time={'2016-2020'} place={'Massachusetts Institute Of Technology (MIT)'} info={'Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence.'} />
+      <Details  type={'KOODICT'} time={'2024'} place={'KOODICT Software House Kohinoor Faisalabad'} info={"Let me share my experience with you regarding the web development course I undertook at KOODICT Software House. This course was a transformative journey that enhanced my skills and knowledge in the realm of web development.Through the guidance of experienced instructors, I delved into various aspects of web development, including frontend and backend technologies, responsive design principles, and interactive user experiences. The course provided me with practical insights into the latest industry trends, best practices, and tools used in the field I honed my abilities in HTML, CSS, JavaScript,and explored frameworks like React js for frontend development. On the backend, I gained proficiency in server-side scripting languages like Node.js and databases like Mongo DB."} />
         
-
-        <Details  type={'Bachelor Of Science In Computer Science'} time={'2016-2020'} place={'Massachusetts Institute Of Technology (MIT)'} info={'Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence.'} />
+      <Details  type={'SOFRIX'} time={'2024'} place={'SOFRIX Software House Satyana Road, Faisalabad'} info={"Let me share my experience with you regarding the web development course I undertook at SOFRIX Software House. This course was a transformative journey that enhanced my skills and knowledge in the realm of web development.Through the guidance of experienced instructors, I delved into various aspects of web development, including frontend and backend technologies, responsive design principles, and interactive user experiences. The course provided me with practical insights into the latest industry trends, best practices, and tools used in the field I honed my abilities in HTML, CSS, JavaScript,and explored frameworks like React js for frontend development. On the backend, I gained proficiency in server-side scripting languages like Node.js and databases like Mongo DB."} />
         
-        <Details  type={'Bachelor Of Science In Computer Science'} time={'2016-2020'} place={'Massachusetts Institute Of Technology (MIT)'} info={'Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence.'} />
+      
+    
         
 
 

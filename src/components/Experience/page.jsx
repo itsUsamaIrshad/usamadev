@@ -38,14 +38,14 @@ const Experience = () => {
       <motion.div style={{scaleY:scrollYProgress}} className=' absolute left-9 lg:left-[4.5rem] top-0     w-[4px] h-full bg-dark origin-top dark:bg-primaryDark '/>
 
       <ul className=' w-full flex flex-col  xs:ml-4 ml-8    dark:text-light  '>
-        <Details  type={'Bachelor Of Science In Computer Science'} time={'2016-2020'} place={'Massachusetts Institute Of Technology (MIT)'} info={'Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence.'} />
+        <Details  type={'Intermediate in Computer Science'} time={'2019-2020'} place={'Kips College, Faisalabad'} info={"I pursued my Computer Science studies at KIPS College, where I embarked on a journey to delve into the intricacies of the digital realm. During my time at KIPS, I immersed myself in the world of algorithms, programming languages, and software development methodologies. Through comprehensive coursework and hands-on projects, I gained a solid foundation in coding, problem-solving, and software design. The college's nurturing environment and dedicated faculty further fueled my passion for technology and equipped me with the skills needed to excel in the ever-evolving field of Computer Science"} />
         
-        <Details  type={'Bachelor Of Science In Computer Science'} time={'2016-2020'} place={'Massachusetts Institute Of Technology (MIT)'} info={'Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence.'} />
+        <Details  type={'Bachelors in Software Engineering'} time={'2020-2024'} place={'Riphah International University Faisalabad'} info={'Let me share with you my journey of acquiring a degree in Software Engineering from Riphah International University. During my time at Riphah, I embarked on a transformative educational voyage that encompassed the diverse facets of software development. Through a comprehensive curriculum, I delved into programming languages, software architecture, database management, and project management methodologies.'} />
         
 
-        <Details  type={'Bachelor Of Science In Computer Science'} time={'2016-2020'} place={'Massachusetts Institute Of Technology (MIT)'} info={'Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence.'} />
+        <Details  type={'Seerhat Software House'} time={'2024'} place={'Software Software House D Ground Faisalabad'} info={"Let me share my experience with you regarding the web development course I undertook at TechXtent Software House. This course was a transformative journey that enhanced my skills and knowledge in the realm of web development.Through the guidance of experienced instructors, I delved into various aspects of web development, including frontend and backend technologies, responsive design principles, and interactive user experiences. The course provided me with practical insights into the latest industry trends, best practices, and tools used in the field I honed my abilities in HTML, CSS, JavaScript,and explored frameworks like React js for frontend development. On the backend, I gained proficiency in server-side scripting languages like Node.js and databases like Mongo DB."} />
         
-        <Details  type={'Bachelor Of Science In Computer Science'} time={'2016-2020'} place={'Massachusetts Institute Of Technology (MIT)'} info={'Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence.'} />
+      
         
 
 

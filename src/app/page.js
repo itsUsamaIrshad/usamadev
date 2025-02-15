@@ -8,7 +8,7 @@ import HireMe from '@/components/HireMe/page';
 import { LinkArrow } from '@/components/Icon/page';
 import Layout from '@/components/Layout/page';
 import RotatingText from '@/components/RotatingText/page'
-import { delay, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 
 export default function Home() {
   return (
@@ -42,14 +42,14 @@ export default function Home() {
 /> 
 
 <p className=' hidden sm:block my-4 text-base font-medium dark:text-light w-[100%] md:w-[80%] '>As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-     <span className=' hidden sm:block'>  Explore my latest projects and articles, showcasing my expertise in React.js and web development.</span></p>
+     <span className=' hidden sm:block'>  Explore my latest projects  showcasing my expertise in React.js and web development.</span></p>
 
       <div className=' flex items-center lg:items-start gap-8   mt-2 self-center lg:self-start'>
 
-<Link href={'/dummy.pdf'} target='blank' className=' flex items-center
+<Link href={'/FullStack Developer Resume.pdf'} target='blank' className=' flex items-center
  bg-dark p-2 sm:p-2.5 px-6 text-white rounded-lg text-md sm:text-lg font-semibold     dark:bg-light dark:text-dark   border-2 border-solid border-transparent ' download={true}>Resume <LinkArrow className='w-6 ml-1' /></Link>
 
-        <Link href={'mailto:usama@gmail.com'} target='blank' 
+        <Link href={"https://wa.me/923016613599?text=Hey%20I%20am%20interested%20in%20your%20services!"} target='blank' 
     className=' flex items-center bg-dark p-3 sm:p-4.5 px-6 text-white rounded-lg text-md
   sm:text-lg font-semibold   dark:bg-[#ff014f]  dark:text-white  border-2 border-solid border-transparent '>Contact</Link>
       </div>
@@ -70,17 +70,7 @@ export default function Home() {
         />
       </motion.div>
       </div>
-    {/* <div className='w-[100%] flex justify-center'>
-
-<Image 
-src={profileImage} 
-alt='image' 
-className=' md:w-[60%]  lg:w-[40%] h-auto overflow-hidden  absolute bottom-0' 
-priority  
-sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" 
-/>
-
-</div> */}
+   
   </div>
 </Layout>
 

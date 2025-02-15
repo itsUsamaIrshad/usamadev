@@ -90,8 +90,8 @@ const Navbar = () => {
         
         <nav className=' flex items-center justify-center flex-wrap '>
        
-            <motion.a href={'/'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3' ><GithubIcon/></motion.a>
-            <motion.a href={'/'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'><LinkedInIcon/></motion.a>
+            <motion.a href={'/www.linkedin.com/in/itsusamairshad'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3' ><GithubIcon/></motion.a>
+            <motion.a href={'/www.linkedin.com/in/itsusamairshad'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'><LinkedInIcon/></motion.a>
          
             <motion.a href={'/'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3'><DarkModeToggle/></motion.a>
            

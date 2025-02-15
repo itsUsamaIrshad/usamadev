@@ -68,24 +68,20 @@ useEffect(()=>
     </h2>
 
     <p className='  font-medium dark:text-light'>
-      - Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-      and user-centered digital experiences. With 4 years of experience in the field, I am always looking for
-      new and innovative ways to bring my clients' visions to life.
+    Hi, I'm Usama Irshad, a full-stack web developer and UI/UX designer with a passion for creating beautiful, functional, and user-centered digital experiences. With over 2 years of experience in the field, I am always looking for new and innovative ways to bring my clients' visions to life.
     </p>
 
     <p className='font-medium my-4 dark:text-light'>
-      - I believe that design is about more than just making things look pretty – it's about solving problems and
-      creating intuitive, enjoyable experiences for users.
+    I believe that design is more than just aesthetics – it's about solving problems and creating intuitive, enjoyable experiences for users.
     </p>
 
     <p className='font-medium dark:text-light'>
-      - Whether I'm working on a website, mobile app, or other digital product, I bring my commitment to design excellence and user-centered thinking to
-      every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+    Whether I'm working on a website, mobile app, or other digital products, I bring my commitment to design excellence and user-centered thinking to every project. I look forward to the opportunity to bring my skills and passion to your next project.
     </p>
   </div>
   
   {/* Profile Image Section */}
-  <div className='col-span-12 sm:col-span-6 lg:col-span-5 xl:col-span-4 relative h-[auto] rounded-2xl border-2 border-solid border-dark bg-light p-4 sm:p-8 dark:bg-dark dark:border-light  w-[60%] sm:w-[90%] lg:w-[70%]'>
+  <div className='col-span-12 sm:col-span-6 lg:col-span-5 xl:col-span-4 relative h-[auto] rounded-2xl border-2 border-solid border-dark bg-light p-4 mt-10   dark:bg-dark dark:border-light  w-[70%] sm:w-[90%] lg:w-[80%]'>
     <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light '/>
     <Image
       src={Profile_pic}
@@ -101,7 +97,7 @@ useEffect(()=>
     {/* Stat Box 1 */}
     <div className='flex flex-col items-center justify-center text-center'>
       <span className='inline-block font-bold dark:text-light text-2xl sm:text-3xl md:text-4xl'>
-        <AnimatedNumber value={50} />+
+        <AnimatedNumber value={15} />+
       </span>
       <h2 className='font-medium capitalize text-dark/75 dark:text-light text-lg sm:text-xl md:text-2xl'>
         Satisfied Clients
@@ -111,7 +107,7 @@ useEffect(()=>
     {/* Stat Box 2 */}
     <div className='flex flex-col items-center justify-center text-center'>
       <span className='inline-block font-bold dark:text-light text-2xl sm:text-3xl md:text-4xl'>
-        <AnimatedNumber value={50} />+
+        <AnimatedNumber value={20} />+
       </span>
       <h2 className='font-medium capitalize text-dark/75 dark:text-light text-lg sm:text-xl md:text-2xl'>
         Projects Completed
@@ -121,7 +117,7 @@ useEffect(()=>
     {/* Stat Box 3 */}
     <div className='flex flex-col items-center justify-center text-center'>
       <span className='inline-block font-bold dark:text-light text-2xl sm:text-3xl md:text-4xl'>
-        <AnimatedNumber value={50} />+
+        <AnimatedNumber value={2} />+
       </span>
       <h2 className='font-medium capitalize text-dark/75 dark:text-light text-lg sm:text-xl md:text-2xl'>
         Years of Experience
