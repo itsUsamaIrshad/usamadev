@@ -3,7 +3,7 @@ import Head from 'next/head'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Project1 from '../../../public/images/projects/project1.png'
+import Project1 from '../../../public/images/projects/project1.PNG'
 import Project2 from '../../../public/images/projects/project2.png'
 import Project3 from '../../../public/images/projects/project3.png'
 import Project4 from '../../../public/images/projects/project4.png'
@@ -103,19 +103,19 @@ const Projects = () => {
                 <div className='col-span-12 md:col-span-6'>
                   
     <Project title={'Crypto Screener Application'}
-    image={Project1}
+    image={Project2}
     link={'/'} github={'/'} type={'Featured Project'}/>
     </div>
                
                 <div className=' col-span-12'>
     <FeaturedProjects title={'Crypto Screener Application'}
-    image={Project1} summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. '}
+    image={Project3} summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. '}
     link={'/'} github={'/'} type={'Featured Project'}/>
     </div>
                
                 <div className='col-span-12 md:col-span-6'>
     <Project title={'Crypto Screener Application'}
-    image={Project1}
+    image={Project4}
     link={'/'} github={'/'} type={'Featured Project'}/>
     </div>
                 <div className='col-span-12 md:col-span-6'>
